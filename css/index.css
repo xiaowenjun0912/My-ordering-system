@@ -1,0 +1,840 @@
+body,
+li,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+strong,
+em,
+ul,
+ol,
+div,
+span,
+s,
+del,
+img,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* a:hover {
+    color: #f10215;
+} */
+
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+
+input {
+    outline: 0 none;
+    border: 0 none;
+}
+
+h1,
+h2,
+h3,
+a {
+    font-weight: normal;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+body {
+    font: 12px/100% "微软雅黑";
+    /* background-color: #f6f6f6; */
+}
+
+cleanfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.claerfix {
+    *zoom: 1;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.xiangfang .top {
+    width: 100%;
+    height: 153px;
+    background-color: #635f5c;
+    overflow: hidden;
+    position: relative;
+}
+
+.xiangfang .top img {
+    /* float: left; */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    /* margin-left: 20px; */
+    /* margin-top: 40px; */
+}
+
+.xiangfang .top .type {
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    width: 40px;
+    text-align: center;
+    color: white;
+    /* display: block; */
+    position: absolute;
+    top: 22px;
+    border-radius: 5px;
+    left: 102px;
+    background-color: red;
+}
+
+.xiangfang .top .name {
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    top: 22px;
+    left: 152px;
+    color: white;
+}
+
+.xiangfang .top .title {
+    position: absolute;
+    top: 48px;
+    left: 102px;
+    color: white;
+}
+
+.xiangfang .top .jian {
+    position: absolute;
+    top: 65px;
+    left: 102px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 20px;
+    color: red;
+    background-color: white;
+}
+
+.xiangfang .top .zai {
+    position: absolute;
+    top: 72px;
+    left: 131px;
+    color: white;
+}
+
+.xiangfang .top .fivege {
+    position: absolute;
+    right: 20px;
+    top: 72px;
+    display: block;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    background-color: #53463e;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.xiangfang .top .gonggao {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #56514d;
+}
+
+.xiangfang .top .gonggao .name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+    color: black;
+    font-size: 12px;
+    background-color: white;
+    cursor: pointer;
+    animation: run 24s linear infinite;
+}
+
+.xiangfang .top .gonggao .content {
+    position: absolute;
+    /* bottom: 10px; */
+    top: 15px;
+    left: 60px;
+    color: white;
+    animation: run 24s linear infinite;
+}
+
+@keyframes run {
+    0% {
+        transform: translateX(1300px)
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+.xiangfang .btn {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.xiangfang .btn1,
+.btn2,
+.btn3 {
+    width: 33.33%;
+    height: 100%;
+    color: #56514d;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn div.active2 {
+    color: red;
+}
+
+.fanye {
+    position: relative;
+}
+
+.rexiao {
+    width: 80px;
+    height: 522px;
+    float: left;
+    cursor: pointer;
+}
+
+.rexiao .active1 {
+    font-weight: 700;
+    background-color: skyblue;
+}
+
+.rexiao div {
+    width: 100%;
+    height: 50px;
+    color: black;
+    background-color: #f4f5f7;
+    text-align: center;
+    line-height: 50px;
+    padding-left: 5px;
+    border-bottom: 1px solid #56514d;
+}
+
+/* .rexiao div:hover {
+    font-weight: 700;
+    /* background-color:#ffffff; */
+    /* background-color: skyblue;
+} */ */
+
+.lanmu {
+    width: 90%;
+    width: 1072px;
+    position: relative;
+    height: 900px;
+    float: right;
+    /* background-color: red; */
+}
+
+.re {
+    width: 1072px;
+    /* width: 100%; */
+    height: 30px;
+    background-color: gray;
+    color: black;
+    padding-left: 10px;
+    float: right;
+    line-height: 30px;
+}
+
+.lanmu .pic1 {
+    /* width: 90%; */
+    height: 1400px;
+    float: right;
+    /* background-color: skyblue; */
+    width: 1082px;
+    position: relative;
+    overflow-y:scroll;
+    /* display: none; */
+}
+
+.lanmu .pic2 {
+    height: 1400px;
+    float: right;
+    /* background-color: red; */
+    width: 1082px;
+    display: none;
+    position: relative;
+}
+
+.lanmu .pic3 {
+    height: 1400px;
+    float: right;
+    background-color: green;
+    width: 1082px;
+    display: none;
+    position: relative;
+}
+
+.lanmu .pic4 {
+    height: 1400px;
+    float: right;
+    background-color: green;
+    width: 1082px;
+    display: none;
+    position: relative;
+}
+
+/* 第几屏幕的切换 */
+
+.cover {
+    width: 100%;
+    height: 1500px;
+    opacity: .7;
+    background-color: #1b232b;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+
+.cover .title {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -109px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cover img {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    margin-left: -196px;
+}
+
+.cover .little {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    margin-left: -57px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cover .list {
+    width: 100%;
+    height: 250px;
+    /* border-top: 1px solid #000; */
+    /* background-color: skyblue; */
+    position: absolute;
+    top: 220px;
+    left: 0%;
+    /* margin-left: -100px;; */
+}
+
+.cover .list .box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+    height: 40px;
+    width: 100%;
+    color: white;
+    line-height: 50px;
+    /* padding-left: 200px; */
+    position: relative;
+    /*  */
+}
+
+.cover .list .jian {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 436px;
+    line-height: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.cover .list .jian1 {
+    color: orangered;
+    font-weight: 700;
+}
+
+.cover .list .jian2 {
+    color: blue;
+    font-weight: 700;
+}
+
+.cover .list .jian3 {
+    color: green;
+    font-weight: 700;
+}
+
+.cover .list .jian4 {
+    font-weight: 700;
+    color: purple;
+}
+
+.cover .list .jian5 {
+    color: greenyellow;
+    font-weight: 700;
+}
+
+.cover .text {
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top: -6px;
+    left: 470px;
+}
+
+.cover .shangjia {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.cover .close {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #f6f6f6;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 740px;
+    left: 50%;
+    ;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+/* 第一页的粥 */
+
+.pic1 .congee {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    border-bottom: 1px solid gray;
+}
+
+.pic1 .noodle {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    border-bottom: 1px solid gray;
+}
+
+.pic1 .bing {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    border-bottom: 1px solid gray;
+}
+
+.pic1 a {
+    position: absolute;
+    top: 10px;
+    display: block;
+    width: 396px;
+    height: 150px;
+    left: 10px;
+}
+
+.pic1 img {
+    width: 233px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.pic1 .name {
+    position: absolute;
+    top: 40px;
+    left: 275px;
+    font-size: 22px;
+}
+
+.pic1 .title {
+    position: absolute;
+    top: 70px;
+    left: 275px;
+    color: #b1b5ba;
+    font-size: 16px;
+}
+
+.pic1 .sale {
+    position: absolute;
+    top: 94px;
+    left: 275px;
+    font-size: 16px;
+    color: #b1b5ba;
+}
+
+.pic1 .good {
+    position: absolute;
+    top: 94px;
+    left: 370px;
+    font-size: 16px;
+    color: #b1b5ba;
+}
+
+.pic1 .money {
+    position: absolute;
+    top: 140px;
+    left: 275px;
+    font-size: 18px;
+    color: red;
+}
+
+.pic1 .add {
+    cursor: pointer;
+    position: absolute;
+    top: 140px;
+    right: 50px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #00a0dc;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+/* 第一页的面 */
+
+.pic2 .congee {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.pic2 .congee a {
+    position: absolute;
+    top: 10px;
+    display: block;
+    width: 396px;
+    height: 150px;
+    left: 10px;
+}
+
+.pic2 .congee img {
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.pic2 .congee .name {
+    position: absolute;
+    top: 40px;
+    left: 275px;
+    font-size: 22px;
+}
+
+.pic2 .congee .title {
+    position: absolute;
+    top: 70px;
+    left: 275px;
+    color: #b1b5ba;
+    font-size: 16px;
+}
+
+.pic2 .congee .sale {
+    position: absolute;
+    top: 94px;
+    left: 275px;
+    font-size: 16px;
+    color: #b1b5ba;
+}
+
+.pic2 .congee .good {
+    position: absolute;
+    top: 94px;
+    left: 370px;
+    font-size: 16px;
+    color: #b1b5ba;
+}
+
+.pic2 .congee .money {
+    position: absolute;
+    top: 140px;
+    left: 275px;
+    font-size: 18px;
+    color: red;
+}
+
+.pic2 .congee .add {
+    position: absolute;
+    top: 140px;
+    right: 50px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #00a0dc;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    /* z-index: 5; */
+}
+.addmore1,.addmore2 {
+    position: absolute;
+    top: 140px;
+    right: 50px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    color: #00a0dc;
+    visibility: hidden;
+}
+.move{
+    animation: go 1s forwards;
+}
+@keyframes go{
+    100%{
+        transform: translateX(-80px) rotate(-180deg);
+    }
+}
+.home{
+    /* right: 50px; */
+    animation: home 1s ;
+
+}
+@keyframes home{
+    100%{
+        transform: translateX(70px) rotate(180deg);
+    }
+}
+
+
+/* 底部收钱开始 */
+
+.comemoney {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    /* right: 0; */
+    /* bottom: 0; */
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    margin-top: 985px;
+    background-color: #141d27;
+}
+
+.comemoney .left {
+    width: 350px;
+    height: 100px;
+    /* float: left; */
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+
+.comemoney .left a {
+    display: block;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: relative;
+    left: 20px;
+    /* bottom: 0px; */
+    bottom: 42px;
+    background-color: black;
+}
+
+.comemoney .left img {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 10px;
+    bottom: -10px;
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 20px 20px #141d27; */
+}
+.comemoney .left .all {
+    position: absolute;
+    left: 190px;
+    top: 29px;
+    text-align: center;
+    height: 100%;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    border-right: 1px solid gray;
+    width: 100px;height: 50px;
+
+}
+.comemoney .left .hong {
+    width: 50px;
+    height: 30px;   
+    line-height: 30px;
+    border-radius: 40%;
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: -30px;
+    left: 100px;
+    text-align: center;
+}
+.comemoney .middle {
+    width: 350px;
+    height: 100px;
+    /* float: left; */
+    position: absolute;
+    left: 350px;
+    bottom: 0px;
+    /* background-color: red; */
+}
+.comemoney .middle p{
+    color: gray;
+    display: block;
+    text-align: center;
+    height: 100px;
+    width: 350px;
+    line-height: 100px;
+    
+}
+.comemoney .right {
+    width: 350px;
+    height: 100px;
+    /* float: left; */
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    opacity: .5;
+    color: white;
+    display: block;
+    text-align: center;
+    height: 100px;
+    width: 350px;
+    line-height: 100px;
+    font-weight: 700;
+    font-size: 26px;
+    background-color: #2b333b;
+}
+.comemoney .right .gopay{
+    background-color: green;
+    /* color: white; */
+    font-size: 30px;
+
+
+}
+.data{
+    width:40px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: skyblue;
+    color: white;
+    position: absolute;
+    top: 145px;
+    right: 118px;
+    display: none;
+}
+.tan{
+    display: none;
+}
+.tan1{
+    animation: tango .5s linear ;
+}
+@keyframes tango{
+    40%{
+        transform: translate(-50px,-80px)
+    }
+    50%{
+        transform: translate(-80px,-110px)
+
+    }
+    100%{
+        transform: translate(-1790px,900px)
+    }
+}
+
+.addmore2,.addmore1,.addmore3 {
+    position: absolute;
+    top: 140px;
+    right: 50px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    color: #00a0dc;
+    /* z-index: 3; */
+    /* display: none; */
+    visibility: hidden;
+}
+/* 第二个弹出来的按钮 */
+.tan2,.tan3{
+    display: none;
+}
+.buyCar{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 10px;
+    bottom: 110px;
+    border-radius: 50%;
+    background-color: gray;
+    opacity: .7;
+    display: block;
+}
